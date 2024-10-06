@@ -1,4 +1,4 @@
-package br.com.facio.lab.demo;
+package br.com.facio.lab;
 
 import io.micrometer.core.instrument.Counter;
 import io.micrometer.core.instrument.MeterRegistry;
