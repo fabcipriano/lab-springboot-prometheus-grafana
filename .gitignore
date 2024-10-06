@@ -1,0 +1,39 @@
+# Ignore Prometheus configuration and data files
+/prometheus_data/
+/prometheus.yml
+
+# Ignore Docker-related files
+docker-compose.override.yml
+docker-compose.override.yaml
+
+# Ignore logs
+*.log
+/logs
+*.log.*
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore environment files
+.env
+
+# Ignore IDE-specific files
+/.idea/
+/*.iml
+/.vscode/
+
+# java files
+target/
+
+# Ignore build output
+*.class
+*.jar
+*.war
+*.ear
